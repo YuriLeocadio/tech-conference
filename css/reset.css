@@ -1,42 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333;
 }
 
-p{
+p {
     color: #70747a;
 }
 
-button, input, textarea, a{
+button,
+input,
+textarea,
+a {
     border: 0;
     outline: none;
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
-a{
+a {
     text-decoration: none;
+    margin: 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-fieldset{
+fieldset {
     border: none;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
-legend{
+legend {
     padding: 0;
     margin: 0;
 }

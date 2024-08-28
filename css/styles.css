@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+
+}
+
+header {
+    width: 100%;
+    background-color: rgba(66, 64, 64, 0.158);
+    padding: 12px 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header nav {
+    width: 100%;
+}
+
+.navbar-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    padding: 2px 56px;
+    color: #b8afaf;
+    font-size: 18px;
+    transition: color 0.4s ease-in;
+}
+
+.links:hover {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.logo {
+    width: 55px;
+}
+
+.nav-btn {
+    color: #FFF;
+    background-color: #b9b3b31e;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in;
+}
+
+.nav-btn:hover {
+    background-color: #535252;
+}
+
+.intro-section {
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 919px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.192)),
+        url(../img/banner.png);
+    background-size: cover;
+    display: grid;
+    grid-template-rows:100px auto;
+    margin-bottom: 100px;
+}
+
+.event-details {
+    width: 30%;
+    position: absolute;
+    left: 200px;
+    top: 275px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#date {
+    color: #d8d3d3;
+    text-transform: uppercase;
+}
+
+.event-details h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 75px;
+
+}
+
+#year {
+    background-color: #887e7eb6;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#year span {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.event-details p {
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.action-buttons {
+    position: absolute;
+    left: 200px;
+    top: 573px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.participate-btn {
+    color: black;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #01aaff, #c300ff);
+}
+
+.participate-btn:hover {
+    background: linear-gradient(90deg, #0083c5, #8a00b4);
+}
+
+.fa-youtube {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.teaser button{
+    background: transparent;
+    color: #FFF;
+}
+
+.teaser{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+}
