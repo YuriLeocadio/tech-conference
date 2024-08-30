@@ -51,9 +51,96 @@
                 </div>
             </section>
         </div>
-        <section>
-            <h2>teste</h2>
+
+        <section class="registration-section">
+            <div class="form-div-container">
+                <div class="form-div">
+                    <h2>Se inscreva no Tech Conference 2024</h2>
+                    <form>
+                        <div class="div-inputs">
+                            <label for="first-name">First name</label>
+                            <input type="text" placeholder="Enter your first name" id="first-name" required
+                                minlength="3">
+                        </div>
+
+                        <div class="div-inputs">
+                            <label for="last-name">Last name</label>
+                            <input type="text" placeholder="Enter your last name" id="last-name" required minlength="2">
+                        </div>
+
+                        <div class="div-inputs">
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="Enter your e-mail" id="email" required>
+                        </div>
+
+                        <div class="div-inputs">
+                            <label for="number">Phone number</label>
+                            <input type="tel" placeholder="Enter your phone number" id="number" required minlength="11">
+                        </div>
+
+                        <div class="div-inputs-checkbox">
+                            <strong>Selecione os Workshops desejados</strong>
+
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="workshop1" name="workshop" value="workshop1">
+                                <label for="workshop1">workshop 1</label>
+                            </div>
+
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="workshop2" name="workshop" value="workshop2">
+                                <label for="workshop2">workshop 2</label>
+                            </div>
+
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="workshop3" name="workshop" value="workshop3">
+                                <label for="workshop3">workshop 3</label>
+                            </div>
+
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="workshop4" name="workshop" value="workshop4">
+                                <label for="workshop4">workshop 4</label>
+                            </div>
+                        </div>
+
+
+                        <div class="div-inputs-radio">
+                            <strong>Gostaria de receber nossa newsletter?</strong>
+
+                            <div class="radio-item">
+                                <input type="radio" id="newsletterYes" name="newsletter" value="yes">
+                                <label for="newsletterYes">Sim, quero receber a newsletter</label>
+                            </div>
+
+                            <div class="radio-item">
+                                <input type="radio" id="newsletterNo" name="newsletter" value="no">
+                                <label for="newsletterNo">Não, obrigado</label>
+                            </div>
+                        </div>
+
+                        <div class="div-btn">
+                            <button type="submit" class="form-btn">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="Workshops-div">
+
+            </div>
         </section>
+
+        <footer class="footer" id="contato">
+            <img src="./img/logo.png" alt="Logo do Tech conference" class="logo">
+            <div class="footer-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <p>Para mais informações, entre em contato conosco pelo email <span>techconference2024@exemplo.com</span></p>
+            <p>Termos e Condições - Política de Privacidade ©2024 Todos os direitos reservados por <span>Tech Conference 2024.</span> Design do site por <span>Yuri Leocadio</span></p>
+        </footer>
     </div>
 </body>
 

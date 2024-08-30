@@ -49,3 +49,49 @@ legend {
     padding: 0;
     margin: 0;
 }
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+
+    appearance: none;
+
+    background-color: transparent;
+
+    outline: none;
+
+    font: inherit;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    border: 1px dashed #01aaff;
+    border-radius: 10em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    background-color: #fff;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #01aaff;
+    border-color: #01aaff;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="checkbox"]:disabled {
+
+    cursor: not-allowed;
+}
